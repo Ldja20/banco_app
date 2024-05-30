@@ -70,7 +70,7 @@ class _CotacaoState extends State<Cotacao> {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Cotação Atual'),
-          backgroundColor: Colors.amber,
+          backgroundColor: Colors.blue,
           shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
             bottomRight: Radius.circular(15),

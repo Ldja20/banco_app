@@ -22,7 +22,7 @@ class MeuPrimeiroAplicativo extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        initialRoute: '/cotacao',
+        initialRoute: '/transferencia',
         routes: {
           '/transferencia': (context) => const Transferencia(),
           '/cotacao': (context) => const Cotacao(),
@@ -48,6 +48,7 @@ class Home extends StatefulWidget {
 class Tela extends StatelessWidget {
   final String text;
   final String route;
+  // ignore: prefer_typing_uninitialized_variables
   final icon;
   const Tela(
     this.text,

@@ -18,7 +18,7 @@ class _LoginState extends State<Login> {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Login'),
-          backgroundColor: Colors.amber,
+          backgroundColor: Colors.blue,
           shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
             bottomRight: Radius.circular(15),
@@ -70,7 +70,7 @@ class _LoginState extends State<Login> {
                 ElevatedButton(
                     onPressed: () {
                       if (_formVal.currentState!.validate()) {
-                        if (email == 'banco@email.com' && senha == '123') {
+                        if (email == 'teste@email.com' && senha == '123') {
                           Navigator.of(context).pushNamed('/principal');
                         }
                       }
